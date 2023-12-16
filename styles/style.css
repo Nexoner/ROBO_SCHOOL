@@ -1,0 +1,179 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+header, body {
+	background-image: url('../images/header_background.jpg');
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+header {
+	display: inline-flex;
+	text-align: top;
+	width: 100%;
+}
+
+header h3 {
+	text-align: left;
+	padding-left: 100px;
+	padding-top: 30px;
+	width: 35%;
+	font-size: 30px;
+	font-family: Jost;
+	font-weight: 700;
+	line-height: 48px;
+}
+
+header h4 {
+	text-align: right;
+	padding-right: 100px;
+	padding-top: 30px;
+	width: 30%;
+	font-size: 30px;
+	font-family: Jost;
+	font-weight: 600;
+	line-height: 48px;
+}
+
+header nav {
+	width: 35%;
+	text-align: center;
+	padding-top: 38px;
+}
+
+nav a{
+	font-size: 20px;
+	font-family: Jost;
+	font-weight: 400;
+	line-height: 32px;
+	padding: 0px 20px;
+}
+
+.title {
+	display: inline-flex;
+}
+
+.title_text {
+	width: 518px;
+	padding-top: 344px;
+	padding-left: 340px;
+}
+
+.title_text  h1{
+	color: white;
+	font-size: 60px;
+	font-family: Jost;
+	font-weight: 600;
+	line-height: 112px;
+	width: 516;
+}
+
+.title_text span {
+	width: 478px;
+	color: white;
+	font-size: 20px;
+	font-family: Jost;
+	font-weight: 400;
+	line-height: 32px
+}
+
+.button_container {
+	margin-top: 50px;
+	text-align: center;
+	border-radius: 5px;
+	display: inline-flex;
+	padding: 27px 25px;
+	background-color: red;
+}
+
+.title_image {
+	height: 100%;
+	position: relative;
+	text-align: right;
+}
+
+.title_image img {
+	width: 515.52px;
+	height: 917.48px;
+	left: 132.99px;
+	top: 0px;
+	position: absolute;
+}
+
+.title_circle {
+	width: 603px;
+	height: 603px;
+	left: 0px;
+	position:
+	absolute;
+	border-radius:
+	9999px;
+	border:
+	80px white solid;
+	top: 104px;
+	left: 10px;
+}
+
+.about {
+	margin-top: 275px;
+	height: 614px;
+	background-color: white;
+	padding-top: 120px;
+	padding-left: 380px;
+}
+
+.about .about_title {
+	color: #141024;
+	font-size: 20px;
+	font-family: Jost;
+	font-weight: 400;
+	line-height: 42px;
+}
+
+.about strong {
+	color: #141024;
+	font-size: 24px;
+	font-family: Jost;
+	font-weight: 600;
+	line-height: 46px;
+}
+
+.about_items {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 50px 50px;
+}
+
+.about_items strong{
+	display: inline;
+	color: #D52027;
+	font-size: 70px;
+	font-family: Jost;
+	font-weight: 600;
+	line-height: 112px;
+	justify-content: center;
+	padding-right: 100px;
+}
+
+.about_items_text span {
+	color: rgba(20, 16, 36, 0.70);
+	font-size: 18px;
+	font-family: Jost;
+	font-weight: 400;
+	padding-right: 20px;
+}
