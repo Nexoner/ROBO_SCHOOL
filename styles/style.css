@@ -1,6 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	max-width: 1920px;
 }
 
 button {
@@ -20,6 +21,15 @@ header, body {
 a {
 	text-decoration: none;
 	color: white;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	max-width: 1920px;
+	background-color: white;
 }
 
 header {
@@ -134,6 +144,9 @@ nav a{
 	height: 614px;
 	background-color: white;
 	padding-top: 120px;
+}
+
+.about .container {
 	padding-left: 380px;
 }
 
@@ -157,6 +170,7 @@ nav a{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 50px 50px;
+	padding-bottom: 120px;
 }
 
 .about_items strong{
@@ -176,4 +190,70 @@ nav a{
 	font-family: Jost;
 	font-weight: 400;
 	padding-right: 20px;
+}
+
+.what_we_can {
+	background-color: #F9F9F9;
+	padding-top: 100px;
+	padding-left: 381px;
+}
+
+.what_we_can h3 {
+	font-size: 50px;
+	font-family: Jost;
+	font-weight: 600;
+	line-height: 80px;
+}
+
+.what_we_can__list {
+	padding-top: 60px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-bottom: 100px;
+}
+
+.what_we_can__list span {
+	color: rgba(20, 16, 36, 0.70);
+	font-size: 18px;
+	padding-right: 40px;
+}
+
+.what_we_can__list img {
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.teacher_title {
+	padding-top: 120px;
+}
+
+.teachers_list {
+	display: inline-flex;
+}
+
+.teachers_list img {
+	border-radius: 35px;
+}
+
+.teachers_list span {
+	padding-top: 40px;
+}
+
+.teachers_list a {
+	color: #D52027;
+}
+
+.teachers_list li {
+	margin-top: 60px;
+	margin-right: 40px;
+}
+
+.teachers_list h4 {
+	padding-top: 20px;
+}
+
+.teacher_nav {
+	margin-top: 60px;
+	justify-content: center;
+	margin-bottom: 120px;
 }
