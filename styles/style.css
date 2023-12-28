@@ -105,10 +105,12 @@ nav a{
 .button_container {
 	margin-top: 50px;
 	text-align: center;
+	justify-content: center;
 	border-radius: 5px;
 	display: inline-flex;
 	padding: 27px 25px;
 	background-color: red;
+	color: #F9F9F9;
 }
 
 .title_image {
@@ -140,7 +142,7 @@ nav a{
 }
 
 .about {
-	margin-top: 275px;
+	margin-top: 360px;
 	height: 614px;
 	background-color: white;
 	padding-top: 120px;
@@ -229,6 +231,7 @@ nav a{
 
 .teachers_list {
 	display: inline-flex;
+	justify-content: space-around;
 }
 
 .teachers_list img {
@@ -255,5 +258,59 @@ nav a{
 .teacher_nav {
 	margin-top: 60px;
 	justify-content: center;
-	margin-bottom: 120px;
+	padding-bottom: 120px;
+}
+
+.ProductBlockThree_list {
+	display: flex;
+	justify-content: center;
+}
+
+.ProductBlockThree_item {
+	border: 1px solid gray;
+	border-radius: 20px;
+	margin: 80px 20px 80px 20px;
+	display: flex;
+	text-align: center;
+	flex-flow: column;
+	height: 460px;
+}
+
+.ProductBlockThree_item:first-child {
+	height: 480px;
+}
+
+.ProductBlockThree_title {
+	text-align: center;
+}
+
+.ProductBlockThree_item_title {
+	padding: 40px;
+}
+
+.ProductBlockThree_item_price {
+	font-size: 50px;
+	font-family: Jost;
+	font-weight: 600;
+	line-height: 80px;
+	word-wrap: break-word;
+	padding-bottom: 10px;
+}
+
+.ProductBlockThree_item_info {
+	width: 205px;
+	height: 58px;
+	font-size: 12px;
+	font-family: Jost;
+	font-weight: 400;
+	line-height: 28.80px;
+}
+
+.ProductBlockThree_item:first-child {
+	background: #141024;
+	color: #F9F9F9;
+}
+
+.ProductBlockThree_item .button_container {
+	margin: 40px;
 }
