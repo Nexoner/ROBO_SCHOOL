@@ -18,6 +18,10 @@ header, body {
 	background-image: url('../images/header_background.jpg');
 }
 
+main {
+	height: 100%;
+}
+
 a {
 	text-decoration: none;
 	color: white;
@@ -143,7 +147,6 @@ nav a{
 
 .about {
 	margin-top: 360px;
-	height: 614px;
 	background-color: white;
 	padding-top: 120px;
 }
@@ -273,7 +276,7 @@ nav a{
 	display: flex;
 	text-align: center;
 	flex-flow: column;
-	height: 460px;
+	height: 420px;
 }
 
 .ProductBlockThree_item:first-child {
@@ -313,4 +316,88 @@ nav a{
 
 .ProductBlockThree_item .button_container {
 	margin: 40px;
+}
+
+.ProductOffer .container {
+	display: flex;
+	color: white;
+	margin-bottom: 0px;
+	background-color: #D52027;
+}
+
+.ProductOffer_info {
+	padding-top: 106px;
+	justify-content: flex-start;
+}
+
+.ProductOffer_info h2 {
+	font-size: 36px;
+	font-family: Jost;
+	font-weight: 600;
+	line-height: 46.80px;
+}
+
+.ProductOffer_info span {
+	font-size: 20px;
+	font-family: Jost;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+input {
+	all: unset;
+}
+
+.ProductOffer_form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 87px;
+	margin-left: 64px;
+}
+
+.ProductOffer_form_item {
+	width: 480px;
+	border-radius: 5px;
+	background-color: #F6F6F6;
+	padding-left: 20px;
+	padding-top: 19px;
+	padding-bottom: 19px;
+	margin-bottom: 10px;
+}
+
+.formButton_container {
+	width: 500px;
+	text-align: center;
+	padding-top: 19px;
+	padding-bottom: 19px;
+	background: #141024;
+	border-radius: 5px;
+}
+
+.sale-img {
+	position: static;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	background-color: #D52027;
+}
+
+.footer {
+	max-width: 1920px;
+	color: white;
+	display: flex;
+}
+
+.footer_title {
+	padding-top: 40px;
+	padding-left: 100px;
+	padding-bottom: 40px;
+	text-align: left;
+	max-width: 50%;
+}
+
+.footer_phone {
+	position:  relative;
+	left: 1100px;
+	top: 40px;
 }
