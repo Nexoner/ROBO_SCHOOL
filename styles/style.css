@@ -235,6 +235,11 @@ nav a{
 .teachers_list {
 	display: inline-flex;
 	justify-content: space-around;
+	width: 100%;
+	overflow-x: auto;
+	border: 2px solid black;
+	border-radius: 40px;
+	margin-top: 40px;
 }
 
 .teachers_list img {
@@ -250,8 +255,9 @@ nav a{
 }
 
 .teachers_list li {
-	margin-top: 60px;
+	margin-top: 20px;
 	margin-right: 40px;
+	margin-bottom: 20px;
 }
 
 .teachers_list h4 {
