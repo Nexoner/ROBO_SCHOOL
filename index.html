@@ -28,11 +28,11 @@
 			</article>
 			<figure class="title_image">
 				<div class="title_circle"></div>
-				<img src="images/girl.png" alt="robo.school_student"/>
+				<img src="images/girl.png" alt="robo.school_student">
 			</figure>
 		</section>
 		<section class="about">
-			<article class="container">
+			<div class="container">
 				<div class="about_title">
 					<span><strong>Robo School</strong> – учреждение для формирования кадрового<br> педагогического резерва в сфере робототехникии<br> и программирования</span>
 				</div>
@@ -54,7 +54,7 @@
 						<span class="about_item_text">Обученных детей на базе собственных центров</span>
 					</div>
 				</div>
-			</article>
+			</div>
 
 			<article class="what_we_can container">
 				<h3>Что вы получите после курса</h3>
@@ -84,36 +84,78 @@
 							<img src="images/irina.jpg" alt="irina" width="360px" height="500px">
 							<h4>Ирина Лайм</h4>
 							<span>преподаватель по робототехнике</span><br>
-							<a href="#">Подробнее</a>
+							<button class="openModalBtn">Подробнее</button>
 						</li>
 						<li>
-							<img src="images/marina.jpg" alt="maarina" width="360px" height="500px">
+							<img src="images/marina.jpg" alt="marina" width="360px" height="500px">
 							<h4>Марина Орлова</h4>
 							<span>преподаватель по робототехнике</span><br>
-							<a href="#">Подробнее</a>
+							<button class="openModalBtn">Подробнее</button>
 						</li>
 						<li>
 							<img src="images/max.jpg" alt="max" width="360px" height="500px">
 							<h4>Максим Петров</h4>
 							<span>преподаватель по программированию</span><br>
-							<a href="#">Подробнее</a>
+							<button class="openModalBtn">Подробнее</button>
 						</li>
 						<li>
 							<img src="images/kostya.jpg" alt="kostya" width="360px" height="500px">
 							<h4>Константин Назаров</h4>
 							<span>преподаватель по робототехнике</span><br>
-							<a href="#">Подробнее</a>
+							<button class="openModalBtn">Подробнее</button>
 						</li>
 						<li>
 							<img src="images/liza.jpg" alt="liza" width="360px" height="500px">
 							<h4>Лиза Весенняя</h4>
 							<span>преподаватель по программированию</span><br>
-							<a href="#">Подробнее</a>
+							<button class="openModalBtn">Подробнее</button>
 						</li>
 					</ul>
+					<div id="teacherModal" class="modal">
+						<div class="modal-content">
+							<div class="modalTeacherInfo">
+								<img class="modalTeacherPhoto" src="images/marina.jpg" alt="marina" width="160px" height="222px">
+								<div class="modalTeacherTitle">
+									<h3>Марина Орлова</h3>
+									<span>преподаватель по робототехнике</span>
+									<div class="modalLinks">
+										<a href="#">
+											<img src="images/Facebook.svg" alt="facebook link">
+										</a>
+										<a href="#">
+											<img src="images/Instagram.svg" alt="instagram link">
+										</a>
+									</div>
+								</div>
+								<div class="modalCloseBtn">
+									<button class="closeModalBtn">Закрыть</button>
+								</div>
+							</div>
+							<div class="modalBtns">
+								<button>Образование</button>
+								<button>Опыт работы</button>
+								<button disabled>Награды</button>
+							</div>
+							<div class="modalTeacherContent">
+								<span> 
+									Сентябрь 1995 — Июнь 2000 <br>
+									Санкт-Петербургский политехнический университет Петра Великого <br>
+									Факультет: Компьютерных наук и технологий <br>
+									Специальность: Математика и компьютерные науки <br>
+									Форма обучения: Очная
+								</span>
+								<h4>Курсы и тренинги</h4>
+								<span>
+									Ноябрь 2020 — Февраль 2021 <br>
+									Программа дополнительного образования «3D Моделирование» <br>
+									Место проведения: Институт дополнительного образования «Политех»
+								</span>
+							</div>
+						</div>
+					</div>
 					<div class="container teacher_nav">
-						<img style="width: 33.33px; height: 33.33px" src="images/Iconly/Arrow-RightCircle.png" alt="left-arrow"/>
-						<img style="width: 33.33px; height: 33.33px; transform: scaleX(-1);" src="images/Iconly/Arrow-RightCircle.png" alt="right-arrow"/>
+						<img id="leftScroll" style="width: 33.33px; height: 33.33px" src="images/Iconly/Arrow-RightCircle.png" alt="left-arrow">
+						<img id="rightScroll" style="width: 33.33px; height: 33.33px; transform: scaleX(-1);" src="images/Iconly/Arrow-RightCircle.png" alt="right-arrow">
 					</div>
 				</div>
 			</article>

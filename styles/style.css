@@ -234,12 +234,10 @@ nav a{
 
 .teachers_list {
 	display: inline-flex;
-	justify-content: space-around;
-	width: 100%;
-	overflow-x: auto;
-	border: 2px solid black;
+	overflow-x: scroll;
 	border-radius: 40px;
 	margin-top: 40px;
+	width: 100%;
 }
 
 .teachers_list img {
@@ -268,6 +266,80 @@ nav a{
 	margin-top: 60px;
 	justify-content: center;
 	padding-bottom: 120px;
+}
+
+.modal {
+	width: 840px;
+	height: 668px;
+	display: none;
+	position: fixed;
+	justify-content: center;
+	top: 20%;
+	left: 25%;
+	background-color: #F6F6F6;
+	z-index: 1;
+	border-radius: 20px;
+}
+
+.openModalBtn {
+	color: #D52027;
+}
+
+.teacherModal {
+	display: flex;
+	flex-direction: column;
+}
+
+.modal-content {
+	margin: 40px;
+}
+
+.modalTeacherInfo {
+	display: flex;
+}
+
+.modalTeacherPhoto {
+	border-radius: 20px;
+	margin-right: 40px;
+}
+
+.modalTeacherTitle h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.modalLinks {
+	margin-top: 10px;
+}
+
+.modalCloseBtn {
+	margin-left: auto;
+	opacity: 0.5;
+}
+
+.modalBtns {
+	display: flex;
+	width: auto;
+	justify-content: center;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	border-bottom: 1px black solid;
+}
+
+.modalBtns button {
+	padding-right: 170px;
+}
+
+.modalBtns button:last-child {
+	opacity: 0.3;
+}
+
+.modalBtns button:active {
+	color: #D52027;
+}
+
+.modalTeacherContent {
+	margin: 20px;
 }
 
 .ProductBlockThree_list {
@@ -369,6 +441,7 @@ input {
 	padding-top: 19px;
 	padding-bottom: 19px;
 	margin-bottom: 10px;
+	color: black;
 }
 
 .formButton_container {
@@ -406,4 +479,19 @@ input {
 	position:  relative;
 	left: 1100px;
 	top: 40px;
+}
+
+@media (max-width: 320px) {
+	* {
+		max-width: 320px;
+	}
+
+	header {
+		max-width: 100%;
+	}
+
+	header h3 {
+		padding-left: 0;
+		font-size: 18px;
+	}
 }
