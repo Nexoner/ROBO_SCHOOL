@@ -4,6 +4,13 @@
 	max-width: 1920px;
 }
 
+.page_body {
+	margin: 0;
+	min-height: 100%;
+	min-width: 320px;
+	font-size: 16px;
+}
+
 button {
 	background: none;
 	color: inherit;
@@ -14,14 +21,6 @@ button {
 	outline: inherit;
 }
 
-header, body {
-	background-image: url('../images/header_background.jpg');
-}
-
-main {
-	height: 100%;
-}
-
 a {
 	text-decoration: none;
 	color: white;
@@ -29,6 +28,14 @@ a {
 
 ul {
 	list-style: none;
+}
+
+header, body {
+	background-image: url('../images/header_background.jpg');
+}
+
+main {
+	height: 100%;
 }
 
 .container {
@@ -42,10 +49,15 @@ header {
 	width: 100%;
 }
 
+header a:hover {
+	border-top: 2px white solid;
+	border-bottom: 2px white solid;
+}
+
 header h3 {
 	text-align: left;
-	padding-left: 100px;
 	padding-top: 30px;
+	padding-left: 30px;
 	width: 35%;
 	font-size: 30px;
 	font-family: Jost;
@@ -55,7 +67,7 @@ header h3 {
 
 header h4 {
 	text-align: right;
-	padding-right: 100px;
+	padding-right: 20px;
 	padding-top: 30px;
 	width: 30%;
 	font-size: 30px;
@@ -345,6 +357,7 @@ nav a{
 .ProductBlockThree_list {
 	display: flex;
 	justify-content: center;
+	text-align: center;
 }
 
 .ProductBlockThree_item {
@@ -357,8 +370,12 @@ nav a{
 	height: 420px;
 }
 
-.ProductBlockThree_item:first-child {
-	height: 480px;
+.ProductBlockThree_item:hover{
+	height: 460px;
+	background: #141024;
+	color: white;
+	margin-top: 60px;
+	margin-bottom: 40px;
 }
 
 .ProductBlockThree_title {
@@ -387,13 +404,12 @@ nav a{
 	line-height: 28.80px;
 }
 
-.ProductBlockThree_item:first-child {
-	background: #141024;
-	color: #F9F9F9;
-}
-
 .ProductBlockThree_item .button_container {
 	margin: 40px;
+}
+
+.ProductBlockThree_item .button_container::after {
+	border-color: white;
 }
 
 .ProductOffer .container {
