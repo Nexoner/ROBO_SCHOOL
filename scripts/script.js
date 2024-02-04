@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function () {
   const rightScrollButton = document.getElementById('rightScroll')
 
   // Добавляем обработчик события для отслеживания изменений в скролле
-  teacherContainer.addEventListener('scroll', function () {
-    // Тут ты можешь добавить дополнительные действия при скролле, если это нужно
-  })
+  teacherContainer.addEventListener('scroll', function() {
+  // Тут ты можешь добавить дополнительные действия при скролле, если это нужно
+  });
 
   rightScrollButton.addEventListener('click', function () {
     teacherContainer.scrollLeft += 200
