@@ -108,7 +108,7 @@ header {
 .hero-container {
 	display: grid;
 	grid-template-columns: 50% 50%;
-	max-height: 962px;
+	max-height: 1280px;
 }
 
 .hero {
